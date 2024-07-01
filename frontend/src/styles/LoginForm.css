@@ -1,0 +1,106 @@
+.login-container {
+    background: linear-gradient(to bottom, #00aaff, #00ffaa);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-card, .register-card {
+    background: #1e2a38;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 400px;
+    position: relative;
+    height: auto; /* Decrease the height of the form */
+    margin-bottom: 0; /* Decrease the height from the bottom */
+    padding-bottom: 0rem; /* Reduce padding at the bottom */
+  }
+  
+  .login-title {
+    background: #00ffaa;
+    color: #1e2a38;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    position: absolute;
+    top: -2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .login-card-body {
+    margin-top: 2rem;
+  }
+  
+  .form-label {
+    color: #ccc;
+  }
+  
+  .form-control {
+    background: #243447;
+    border: none;
+    color: #fff;
+  }
+  
+  .form-control:focus {
+    background: #243447;
+    border: none;
+    box-shadow: none;
+    color: #fff;
+  }
+  
+  .register-form-control {
+    background: #fff;
+    color: #000;
+  }
+  
+  .register-form-control:focus {
+    background: #fff;
+    color: #000;
+    box-shadow: none;
+    border: none;
+  }
+  
+  .login-btn {
+    background: #00ffaa;
+    border: none;
+    color: #1e2a38;
+  }
+  
+  .login-btn:hover {
+    background: #00e699;
+    border: none;
+    color: #1e2a38;
+  }
+  
+  .text-muted,
+  .text-white {
+    color: #fff;
+  }
+  
+  .input-group-text {
+    background: #243447;
+    border: none;
+    color: #fff;
+  }
+  
+  .input-group-text i {
+    font-size: 1.2rem;
+  }
+
+  .login-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1rem auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #fff;
+  }
