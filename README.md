@@ -103,45 +103,6 @@ This project is a full-stack application that includes a registration and login 
 - Login using the registered credentials.
 - Access the dashboard to manage users.
 
-## Deployment
-
-### Deploying the Frontend
-
-1. Sign up for a free account at [Vercel](https://vercel.com/).
-2. Install Vercel CLI:
-
-    ```bash
-    npm install -g vercel
-    ```
-
-3. Navigate to the `frontend` directory and deploy:
-
-    ```bash
-    cd frontend
-    vercel
-    ```
-
-4. Follow the prompts to set up and deploy your project.
-
-### Deploying the Backend
-
-1. Sign up for a free account at [Render](https://render.com/).
-2. Connect your GitHub repository to Render.
-3. Create a new Web Service on Render and provide the necessary build and start commands:
-
-    - Build Command: `npm install`
-    - Start Command: `node index.js`
-
-4. Add the necessary environment variables in the Render dashboard.
-
-5. Deploy your backend service.
-
-### Updating Frontend API URL
-
-After deploying the backend, update the `REACT_APP_API_URL` in the frontend `.env` file to point to the Render backend URL.
-
-```env
-REACT_APP_API_URL=https://your-backend-url.onrender.com
 
 # License
 Distributed under the MIT License. See LICENSE for more information.
